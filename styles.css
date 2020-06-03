@@ -1,0 +1,88 @@
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	p{
+		padding: 10px;
+		border: 3px solid black;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		width: 90%;
+		float: left;
+	}
+.blue{
+	background-color: blue;
+
+}
+.red{
+	background-color: red;
+}
+.gold{
+	background-color: gold;
+}
+.section{
+	    position: relative;
+		padding:1px;
+		border: 1px solid black;
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		background-color: orange;
+      
+      
+	}
+
+	h2{
+		position: relative;
+		margin: auto;
+		float: right;
+		text-align: center;
+		width: 25%;
+		top: 0px;
+		right: 0px;
+        background-color: green;
+	}
+
+h1{
+	
+	text-align: center;
+	size: 30%;
+}
+.row{
+	width: 100%;
+}
+@media(min-width: 992px)
+	{
+		.col-lg-4,.col-lg-12
+		{
+			float: left;
+
+		}
+		.col-lg-4{
+			width: 33.33%;
+			
+		}.col-lg-6{
+			width: 50%;
+			
+		}
+	}
+		@media(min-width: 768px) and (max-width: 991px) 
+	{
+		.col-md-4,.col-md-6
+		{
+			float: left;
+
+		}
+		.col-md-4{
+			width: 33.33%;
+			
+		}.col-md-6{
+			width: 50%;
+			
+		}
+
+
+	}
+
+</style>
